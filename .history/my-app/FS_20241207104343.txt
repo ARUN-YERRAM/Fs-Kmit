@@ -1,0 +1,42 @@
+
+<!--
+1. Build a Get Path handler to return all the 5 students infomation in express.
+
+2. Display all the students information in a table using ReactJS having the following
+column names: Name, Roll Number, Java, CPP, Python, GenAI, FSD
+Table Name in an H3 tag above the table with name: Students List
+
+
+===================================================
+Steps to run two ngrok tunnels 1) React, 2) Express:
+===================================================
+
+Start ngrok.exe using the following command:
+--------------------------------------------
+    ngrok config add-authtoken <AUTH-TOKEN>
+
+Copy and save the Authtoken saved configuration file like below: 
+----------------------------------------------------------------
+    C:\Users\<UserName>\AppData\Local/ngrok/ngrok.yml
+
+
+Copy the forwarding links information:
+--------------------------------------
+    For React App (Client):
+    https://<ngrok's unique code>.ngrok-free.app -> http://localhost:3000 
+    
+    For Express App (Server):
+    https://<ngrok's unique code>.ngrok-free.app -> http://localhost:4000    
+
+
+Update the cors policy link in express server and restart the server.
+And then provide the client link as URL value.
+
+-->
+
+<config>
+    <url value="https://ac2b-2409-40f0-11c2-9739-a995-5ca7-7527-a5bc.ngrok-free.app/"></url>
+</config>
+
+
+
